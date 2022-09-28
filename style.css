@@ -17,7 +17,7 @@
     padding-bottom: 1%;
 }
 
-.bg-image-1 {
+.bg-image {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,14 +25,50 @@
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
-    background-image: url(images/dallas1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.image-1-text {
+/* first image */
+
+.bg-image-1 {
+    background-image: url(images/dallas1.jpg)
+}
+
+.image-1-content {
     font-family: verdana;
-    text-align: center;
-    border-style: solid;
-    border-color: white;
-    border-radius: 5%;
     color: white;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .555)
+}
+
+/* second image */
+
+.bg-image-2 {
+    background-image: url(images/dallas2.jpg);
+    background-attachment: fixed;
+}
+
+.image-2-content {
+    font-family: verdana;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .555)
+}
+
+/* third image */
+
+.bg-image-3 {
+    background-image: url(images/dallas3.jpg);
+}
+
+.image-3-content {
+    font-family: verdana;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .555)
 }
